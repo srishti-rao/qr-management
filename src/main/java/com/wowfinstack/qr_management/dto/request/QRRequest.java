@@ -1,4 +1,4 @@
-package com.wowfinstack.qr_management.dto;
+package com.wowfinstack.qr_management.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

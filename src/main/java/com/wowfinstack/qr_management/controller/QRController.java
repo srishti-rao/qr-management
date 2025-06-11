@@ -1,6 +1,6 @@
 package com.wowfinstack.qr_management.controller;
 
-import com.wowfinstack.qr_management.dto.QRRequest;
+import com.wowfinstack.qr_management.dto.request.QRRequest;
 import com.wowfinstack.qr_management.service.QRService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
