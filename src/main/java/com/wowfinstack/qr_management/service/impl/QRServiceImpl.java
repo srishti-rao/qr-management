@@ -56,7 +56,8 @@ public class QRServiceImpl implements QRService {
 
         }
         catch(WriterException | IOException e) {
-            throw new QrCodeGenerationException("Error while generating QR Code", e);
+            log.error("ERROR while generating QR Code: ", e);
+            throw new QrCodeGenerationException("Error while generating QR Code: " + e.getMessage(), e);
         }
     }
 
