@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.wowfinstack</groupId>
 	<artifactId>qr-management</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.1</version>
 	<name>qr-management</name>
 	<description>qr management application</description>
 	<url/>
